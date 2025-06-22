@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+body {
+    background: url(https://cdn.pixabay.com/photo/2017/06/02/06/47/sky-2365464_960_720.jpg);
+    backdrop-filter: blur(5px);
+    height: 100dvh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.main-container {
+border: solid;
+width: 320px;
+height: 510px;
+border-radius: 20px;
+padding: 15px;
+backdrop-filter: blur(20px);
+}
+.city-input{
+    color: black;
+    width: 100%;
+    padding: 5px;
+    border-radius: 99px;
+    border: 3px solid transparent;
+    background: rgb(0,0,0,0.15);
+    outline: none;
+    transition: 0.25s border;
+    margin-bottom: 25px;
+    
+
+}
+.city-input:focus{
+    border: 3px solid rgb(0,0,0,0.15);
+}
+.button{
+    position: absolute;
+    right: 16px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transform: translateY(-50%);
+    margin-top: 17px;
+
+}
+.about-weather{
+    flex-direction: column;
+    gap: 30px;
+}
+
+.location-container{
+display: flex;
+align-items: center; 
+}
+.location{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    align-content: space-around;
+}
+.current-text{
+    margin-left: 110px;
+}
+.summary-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.summary-img{
+    width: 100px;
+    height: 120px;
+    padding-top: 20px;
+}
+.temp-text{
+    color: rgb(23, 22, 22);
+    padding-left: 100px;
+    padding-top: 15px;
+
+}
+.content-text{
+    color: rgb(20, 19, 19);
+    padding-left: 102px;
+
+}
+
+.condition-container-one{
+    display: inline-block;
+}
+.condition-container-two{
+    display: inline-block;
+    padding-left: 135px;
+    padding-top: 30px;
+}
+
+.forecast-container{
+    display: flex;
+    gap: 40px;
+    overflow: scroll;
+    overflow-x: auto;
+    padding-bottom: 2px;
+    scrollbar-width: none;
+    padding-top: 50px;
+    :hover{
+        background-color:rgb(141, 112, 65);
+        cursor: pointer;
+        transition: 0.2s;
+    }
+}
+
+.forecast-container::-webkit-scrollbar{
+    display: none;
+}
+
+
+.forecast-items {
+    min-width: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    padding: 15px;
+    border-radius: 12px;
+    transition: 0.3s;
+    background-color:rgb(119, 116, 113);
+    border: 3px solid rgb(230, 212, 212);
+}
+

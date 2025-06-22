@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link rel="stylesheet" href="Sandhyalamichhane_2462353.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=search" />
+
+</head>
+<body>
+    <div class="main-container">
+        <input type="text" placeholder="Search City" class="city-input">
+        <button class="button">
+        <span class="material-symbols-outlined">
+                search
+        </span>
+        </button>
+
+    <section class="about-weather">
+    <div class="location-container">
+    <div class="location">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#5f6368"><path d="M480.21-480Q510-480 531-501.21t21-51Q552-582 530.79-603t-51-21Q450-624 429-602.79t-21 51Q408-522 429.21-501t51 21ZM480-191q119-107 179.5-197T720-549q0-105-68.5-174T480-792q-103 0-171.5 69T240-549q0 71 60.5 161T480-191Zm0 95Q323.03-227.11 245.51-339.55 168-452 168-549q0-134 89-224.5T479.5-864q133.5 0 223 90.5T792-549q0 97-77 209T480-96Zm0-456Z"/></svg>
+    <h4 class="text">Siraha</h4></div>
+    <h5 class="current-text">Monday, 25 Dec</h5>
+    </div>
+
+    <div class="summary-container">
+        <img src="https://static.vecteezy.com/system/resources/thumbnails/012/066/505/small_2x/sunny-and-rainy-day-weather-forecast-icon-meteorological-sign-3d-render-png.png" class="summary-img">
+        <div  id="summary-info">
+            <h1 class="temp-text">13°C</h1>
+            <h3 class="content-text">Clouds</h3>
+        </div>
+        </div>
+
+    <div class="weather-container">
+    <div  class="condition-container-one">
+    <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#5f6368"><path d="M483-205.33q14.67-.34 23.17-6.84 8.5-6.5 8.5-17.83 0-12-8.67-18.83-8.67-6.84-24.67-6.5-41.66 1-86-25.17Q351-306.67 339-373.67q-2-9.66-9.5-15.66t-16.5-6q-12 0-19 9.16-7 9.17-4.67 19.84Q305-280 363.33-242q58.34 38 119.67 36.67ZM480-80q-137 0-228.5-94T160-408q0-100 79.5-217.5T480-880q161 137 240.5 254.5T800-408q0 140-91.5 234T480-80Zm0-66.67q109.33 0 181.33-74.5 72-74.5 72-186.83 0-77-64.5-174.67-64.5-97.66-188.83-208.66-124.33 111-188.83 208.66Q226.67-485 226.67-408q0 112.33 72 186.83 72 74.5 181.33 74.5ZM480-480Z"/></svg>
+    <div  class="information-one">
+        <h5 class="humidity">Humidity</h5>
+        <h5  class="humidity-value">50%</h5>
+    </div>
+    </div>   
+    
+    
+    <div class="condition-container-two">
+        <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#5f6368"><path d="M463.33-160q-52.66 0-85.33-30.33-32.67-30.34-32.67-85h72q0 23 11.5 35.83 11.5 12.83 34.5 12.83 23.67 0 35.17-11.83t11.5-36.83q0-25-11.5-37.84Q487-326 463.33-326H80v-66.67h383.33q52.67 0 83 30.34 30.34 30.33 30.34 87 0 54.66-30.34 85Q516-160 463.33-160ZM80-565.33V-632h545.33q33.34 0 50.34-17.33 17-17.34 17-53.34t-17-53.33q-17-17.33-50.34-17.33-34 0-51 19.33t-17 48.67h-66.66q0-58.34 36.83-96.5Q564.33-840 625.33-840q60.34 0 97.17 37.17 36.83 37.16 36.83 100.16T722.5-602.5q-36.83 37.17-97.17 37.17H80Zm668 326.66v-66.66q32 0 48.67-18.67 16.66-18.67 16.66-52 0-34-18-51t-50-17H80v-66.67h665.33q61 0 97.84 36.84Q880-437 880-376q0 62.33-35.5 99.83t-96.5 37.5Z"/></svg>
+        <div class="information-two">
+            <h5 class="humidity">Wind Speed</h5>
+            <h5 class="wind-value">2M/s</h5>
+        </div>
+        </div>        
+    </div>
+
+
+    <div class="forecast-container">
+        <div class="forecast-items">
+            <div class="forecast-date"> 1 jan</div>
+            <div class="forecast-temp">10°C</div>
+            <div class="forecast-condition">cloud</div>
+        </div>
+
+        <div class="forecast-items">
+            <div class="forecast-date"> 2 jan</div>
+            <div class="forecast-temp">10°C</div>
+            <div class="forecast-condition">cloud</div>
+        </div>
+
+        <div class="forecast-items">
+            <div class="forecast-date"> 3 jan</div>
+            <div class="forecast-temp">10°C</div>
+            <div class="forecast-condition">cloud</div>
+        </div>
+
+        <div class="forecast-items">
+            <div class="forecast-date"> 4 jan</div>
+            <div class="forecast-temp">10°C</div>
+            <div class="forecast-condition">cloud</div>
+        </div>
+
+        <div class="forecast-items">
+            <div class="forecast-date"> 5 jan</div>
+            <div class="forecast-temp">10°C</div>
+            <div class="forecast-condition">cloud</div>
+        </div>
+    </div>
+    </section>
+    
+<script src="Sandhyalamichhane_2462353.js" defer></script> 
+
+</body>
+</html>
